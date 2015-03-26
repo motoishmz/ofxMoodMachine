@@ -9,9 +9,9 @@ public:
 	: mood(true)
 	, speed(1.f)
 	{
-		time_duration.r = 1000 * 0.001;
-		time_duration.g = 900 * 0.001;
-		time_duration.b = 1300 * 0.001;
+		time_duration.r = 1000 * 0.001f;
+		time_duration.g = 900 * 0.001f;
+		time_duration.b = 1300 * 0.001f;
 		
 		color_from.r = ofRandom(255.f);
 		color_from.g = ofRandom(255.f);
@@ -34,7 +34,7 @@ public:
 	inline void toggle() { mood ^= true; }
 	inline bool isMoody() const { return mood; }
 	
-	inline void setSpeed(float new_speed) { speed = new_speed; }
+	inline void setSpeed(float new_speed) { speed = new_speed; } // unofficial setter
 	
 private:
 	

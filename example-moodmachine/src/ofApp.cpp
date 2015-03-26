@@ -20,7 +20,7 @@ public:
 	
 	void draw()
 	{
-		ofDrawBitmapStringHighlight("[ spacebar ] to toggle the mood", 30, 30, moodmachine.getInverted());
+		ofDrawBitmapStringHighlight("[ spacebar ] to toggle the mood", 20, 30, moodmachine.getInverted());
 	}
 	
 	void keyPressed(int key)
