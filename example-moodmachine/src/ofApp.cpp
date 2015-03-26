@@ -5,9 +5,14 @@
 class ofApp : public ofBaseApp
 {
 	ofxMoodMachine moodmachine;
-	
+    
 public:
 	
+    void setup()
+    {
+        moodmachine.setSpeed(1.0);
+    }
+    
 	void update()
 	{
 		ofBackground(moodmachine);
