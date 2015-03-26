@@ -6,8 +6,8 @@ class ofxMoodMachine : public ofColor
 public:
 	
 	ofxMoodMachine()
-    : mood(true)
-    , speed(1.f)
+	: mood(true)
+	, speed(1.f)
 	{
 		time_duration.r = 1000 * 0.001;
 		time_duration.g = 900 * 0.001;
@@ -33,8 +33,8 @@ public:
 	inline void stop() { mood = false; }
 	inline void toggle() { mood ^= true; }
 	inline bool isMoody() const { return mood; }
-    
-    inline void setSpeed(float new_speed) { speed = new_speed; }
+	
+	inline void setSpeed(float new_speed) { speed = new_speed; }
 	
 private:
 	
@@ -46,7 +46,7 @@ private:
 	rgb_t color_to;
 	
 	bool mood;
-    float speed;
+	float speed; // unofficial attribute
 	
 	void update(ofEventArgs &e)
 	{
