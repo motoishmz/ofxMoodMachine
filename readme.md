@@ -1,5 +1,7 @@
 ## ofxMoodMachine
 
+[![Join the chat at https://gitter.im/motoishmz/ofxMoodMachine](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/motoishmz/ofxMoodMachine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - is an implementation of the moodmachine for OpenFrameworks
 - inherits from ofColor
 
